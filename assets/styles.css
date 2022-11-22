@@ -1,0 +1,227 @@
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+/*global*/
+
+h1{
+    color: #363938;
+}
+
+h3{
+    color: #8A8884;
+}
+
+h2{
+    text-align: center;
+    padding-top: 28px;
+    font-weight: 100;
+    font: 36px"Open Sans", arial, helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+	min-height: 100%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+#button-comum{
+    border: none;
+    padding: 12px 30px;
+    color: #fff;
+    background-color: #487394;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+#button-comum:hover{
+    background-color: #00B600;
+}
+
+
+/*header*/
+
+header{
+    padding: 20px 80px;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+nav{
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+li{
+    padding: 0 16px;
+}
+
+li a{
+    text-decoration: none;
+    color: #071A26;
+}
+
+li a:hover{
+    color: #8A8884;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    width: 100px;
+}
+
+#logo:hover{
+	opacity:.5;
+}
+
+#search{
+    background: url('/assets/images/busca.png')  no-repeat;
+    border: none;
+    max-width: 28px;
+}
+
+/*banner*/
+
+.banner{
+    background-image: url('/assets/images/banner.webp');
+    background-size:cover;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    font-weight: 100;
+    font: 15px "Open Sans", arial, helvetica, sans-serif;
+}
+
+.banner div{
+    padding: 70px 80px;
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.banner h3{
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#button-banner{
+    margin-top: 8px;
+    border: none;
+    padding: 18px 20px;
+    color: #fff;
+    background-color: #00B600;
+    cursor: pointer;
+}
+
+#button-banner:hover{
+    background-color: #487394;
+}
+
+/*sobre*/
+
+.about{
+    display: grid;
+    padding: 38px 80px 0 80px;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about p{
+    line-height: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.about button{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+#content-about-one{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 22px;
+}
+
+#content-about-one div{
+    padding-left: 20px;
+}
+
+#content-about-two{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#content-about-two div{
+    padding-right: 20px;
+}
+
+/*portfólio*/
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 22px 160px;
+}
+
+.portfolio img{
+    max-width: 84%;
+    transition: all 300ms ease-in-out;
+    padding: 18px;
+}
+
+.portfolio img:hover{
+    transform: translate(-3%, 3%) scale(1.2);
+}
+
+.section-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 44px;
+}
+
+/*Depoimentos*/
+
+.depositions{
+    display: grid;
+    padding: 30px 160px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.depositions div img{
+    display: grid;
+    max-width: 92%;
+}
+
+#testimonial h4{
+    font-size: 14px;
+}
+
+#testimonial{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 10px;
+    line-height: 22px;
+}
