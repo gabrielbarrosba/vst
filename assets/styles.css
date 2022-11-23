@@ -225,3 +225,39 @@ li a:hover{
     font-size: 10px;
     line-height: 22px;
 }
+
+/*contato*/
+
+.contact{
+    padding: 30px 160px;
+}
+
+.contact input{
+    padding: 16px;
+    border-color: #000;
+    border-width: 0.5px;
+    margin: 22px;
+}
+
+#input-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 12px;
+}
+
+#input-two{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding: 0 12px;
+}
+
+#two-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#input-two-one a{
+    text-decoration: none;
+    color: #487394;
+}
+
