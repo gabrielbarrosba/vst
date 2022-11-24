@@ -230,6 +230,7 @@ li a:hover{
 
 .contact{
     padding: 30px 160px;
+    margin-bottom: 40px;
 }
 
 .contact input{
@@ -239,21 +240,26 @@ li a:hover{
     margin: 22px;
 }
 
-#input-one{
+.input-one{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 12px;
 }
 
-#input-two{
+.input-two{
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1.4fr 1fr;
     padding: 0 12px;
 }
 
 #two-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding: 12px 16px;
+    margin: 0 22px;    
+    align-items: center;
+
 }
 
 #input-two-one a{
@@ -261,3 +267,25 @@ li a:hover{
     color: #487394;
 }
 
+#button-contact{
+    margin-left: 40px;
+    border: none;
+    padding: 18px 80px;
+    color: #fff;
+    background-color: #00B600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*rodape*/
+
+footer{
+    background-color: #303030;
+    padding: 30px 80px;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid #fff;
+}
