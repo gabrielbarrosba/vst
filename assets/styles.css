@@ -43,6 +43,7 @@ body{
 
 #button-comum:hover{
     background-color: #00B600;
+    align-items: center;
 }
 
 
@@ -52,6 +53,7 @@ header{
     padding: 20px 80px;
     background-color: #fff;
     font-weight: 700;
+    justify-content:center;
 }
 
 ul{
