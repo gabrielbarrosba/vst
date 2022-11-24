@@ -14,7 +14,7 @@
     <header>
         <div class="header-content">
             <div id="logo"><a href="#"><img src="/assets/images/vasta-logo.png" alt=""></a></div>
-            <nav>
+            <nav id="menu">
                 <ul>
                     <li><a href="">Sobre</a></li>
                     <li><a href="">Portfólio</a></li>
@@ -43,7 +43,7 @@
                 <img src="/assets/images/sobre-1.jpg" alt="">
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam, rerum dignissimos possimus quia tenetur et iure, sint perspiciatis quod error nihil doloribus obcaecati ab tempora commodi quis, minima at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic cum. Delectus dolorum quis rerum tenetur officia expedita libero, consequatur excepturi inventore nostrum, quo dolor at. Itaque placeat tempora culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, odit dolores aperiam pariatur inventore id asperiores accusantium tempora reprehenderit? Eius esse quia in iure nesciunt culpa ipsa ea repellat ullam.</p>
-                    <a href="#sobre"><button id="button-comum">SAIBA MAIS</button></a>
+                    <a href="#sobre"><button class="button-comum">SAIBA MAIS</button></a>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
             
         </div>
         <div class="section-button">
-            <a href="#sobre"><button id="button-comum">CARREGAR MAIS PROJETOS</button></a>
+            <a href="#sobre"><button id="mobile" class="button-comum">CARREGAR MAIS PROJETOS</button></a>
         </div>
     </section>
 
@@ -121,40 +121,45 @@
         </div>
     </section>
     <footer>
-            <div id="footer-content-one">
+            <div class="footer-content-one">
                 <div>
-                    <p>SE INSCREVA PARA RECEBER NOSSE NEWSLETTER</p>
+                    <img id="logo-mobile" src="/assets/images/logo-footer.png" alt="">
+                    <h4>SE INSCREVA PARA RECEBER NOSSA NEWSLETTER</h4>
                     <input type="text" placeholder="Email">
                     <a href="#sobre"><button>INSCREVA-SE</button></a>
                 </div>
                 <div>
-                    <h4>PORTFÓLIO</h4>
-                    <div id="portfolio">
-                        <img src="/assets/images/sobre-1.jpg" alt="">
-                        <img src="/assets/images/sobre-1.jpg" alt="">
-                        <img src="/assets/images/sobre-1.jpg" alt="">
-                        <img src="/assets/images/sobre-1.jpg" alt="">
+                    <h5>PORTFÓLIO</h5>
+                    <div id="portfolio-footer">
+                        <a href=""><img src="/assets/images/sobre-1.jpg" alt="">LINK 1</a>
+                        <a href=""><img src="/assets/images/sobre-1.jpg" alt="">LINK 2</a>
+                        <a href=""><img src="/assets/images/sobre-1.jpg" alt="">LINK 3</a>
+                        <a href=""><img src="/assets/images/sobre-1.jpg" alt="">LINK 4</a>
                     </div>
                 </div>
             </div>
-            <div id="footer-content-two">
+            <div class="footer-content-two">
                 <div id="menu-footer">
                     <div>
                         <h4>MENU</h4>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <ul>
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Portfólio</a></li>
+                            <li><a href="">Depoimentos</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
                     </div>
                     <div>
                         <h4>SOBRE</h4>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <ul>
+                            <li><a href="">Política de Privacidade</a></li>
+                            <li><a href="">Termos de Uso</a></li>
+                        </ul>
                     </div>
                 </div>
-                <img src="" alt="">
+                <div id="img-footer">
+                    <img src="/assets/images/logo-footer.png" alt="logo vasta">
+                </div>
             </div>
     </footer>
 </body>
