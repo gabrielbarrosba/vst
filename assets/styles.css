@@ -93,7 +93,7 @@ nav{
 }
 
 #search{
-    background: url('/assets/images/busca.png')  no-repeat;
+    background: url('./assets/images/busca.png')  no-repeat;
     border: none;
     max-width: 28px;
 }
