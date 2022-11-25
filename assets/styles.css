@@ -93,7 +93,7 @@ nav{
 }
 
 #search{
-    background: url('./assets/images/busca.png')  no-repeat;
+    background: url('./images/busca.png')  no-repeat;
     border: none;
     max-width: 28px;
 }
@@ -114,7 +114,7 @@ nav{
 /*banner*/
 
 .banner{
-    background-image: url('/assets/images/banner.webp');
+    background-image: url('./images/banner.webp');
     background-size:cover;
     height: 70vh;
     width: 100%;
